@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./assets/arvore-sem-fundo7.svg);
+    background-repeat: no-repeat;
+    background-position: 600px 120px;
+    background-size: 30vw;
+    background-color: azure;
+}
+#header{
+    font-weight: 600;
+    display: flex;
+    font-size:35px;
+    justify-content: space-between;
+    padding: 2vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    font-size: 15px;
+    padding-right: 1vw;
+}
+.menu li:hover{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
+.menu li{
+    padding: 2vw;
+}
+#titulo{
+    padding-left: 3vw;
+}
+.button1{
+    margin-top: 1vw;
+    width: 3vw;
+    height: 3vw;
+    background-color: #045445;
+    color: #ffffff;
+    border: none;
+    font-size: 25px;
+    border-radius: 25vw;
+}
+.button1:hover{
+    background: #ccbbff;
+}
+#section1{
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo{
+    padding-bottom: 1vh;
+    font-size: 40px;
+}
+.sub{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sublight{
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 70%;
+}
+#sub2{
+    padding-top: 15vh;
+}
+#section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    margin-top: 410px;
+    margin-right: 80px;
+}
+#p1{
+    font-size: 25px;
+    font-weight: bold;
+}
+#p2{
+    font-weight: 200;
+    font-size: 25px;
+    opacity: 70%;
+}
